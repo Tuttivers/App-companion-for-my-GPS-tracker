@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_layout">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="phone"
+        android:key="@string/key_number"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_tracker_number" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_tracker_command"
+        android:inputType="text"
+        android:key="@string/key_command"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_tracker_command" />
+
+</PreferenceScreen>

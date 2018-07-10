@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tracker GPS</string>
+
+    <string name="pref_title_tracker_number">Tracker phone number</string>
+    <string name="key_number">number_phone</string>
+
+    <string name="pref_title_tracker_command">Request command</string>
+    <string name="key_command">command_text</string>
+    <string name="pref_default_tracker_command">fix001s001n123456</string>
+
+</resources>
